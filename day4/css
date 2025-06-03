@@ -1,0 +1,19 @@
+Selector:- Stand for selecting an element in different ways
+Selector{
+    Properties
+    .
+    .
+    .
+}
+Types
+Simple selector
+    element(p,h1...tags), Id(#), Class(.)
+Combinator selector
+    Descendant( ), Child(>), Adjacent(+), General Sibling(~)   
+pseudo-class selector
+    :hover, :Link,:Visited, :active, 
+pseudo element Selector
+    ::first-letter, ::last-letter, ::before, ::after
+Attribute selector
+    based on html elements attribute the stylings are applied
+    

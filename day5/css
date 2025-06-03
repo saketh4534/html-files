@@ -1,0 +1,37 @@
+Selector:- Stand for selecting an element in different ways
+Selector{
+    Properties
+    .
+    .
+    .
+}
+Types
+Simple selector
+    element(p,h1...tags), Id(#), Class(.)
+Combinator selector
+    Descendant( ), Child(>), Adjacent(+), General Sibling(~)   
+pseudo-class selector
+    :hover, :Link,:Visited, :active, 
+pseudo element Selector
+    ::first-letter, ::last-letter, ::before, ::after
+Attribute selector
+    based on html elements attribute the stylings are applied
+    
+
+
+border: 1px solid color;
+border-radius: 10px;
+
+
+Text properties:-
+text-align: rignt left justify
+text- transform: uppercase lowercase captalize
+color:
+text -decoration: underline, overline, line-through, none
+text-indent: 10px
+text-transform
+font-family
+font-size
+font-style
+font-weight
+font-variant

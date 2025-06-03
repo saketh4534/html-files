@@ -1,0 +1,9 @@
+Github is used for storing codefiles 
+To coordinate with oter empoloyees
+Version controlling
+Deployment or perposting
+
+Accessing Github
+    --> To access a github we need to install gitbash in our local systems 
+    and we need to create account in github which is like a cloud storage in browsers.
+    --> Connection between gitbash and github play vital role
