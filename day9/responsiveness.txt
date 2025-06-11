@@ -1,0 +1,28 @@
+375px - 436px   -->mobile phones
+486px - 576px   --> extra small devices
+576px - 768px   --> small devices
+768px - 992px   --> medium devices
+992px - 1366 or 1200px  --> large devices
+1366px - 1920px --> extra large devices
+
+
+To apply responsiveness we are going to write a block of code
+in html and css.
+
+htnl
+<!DOCTYPE html>
+meta name content
+
+CSS ---> Media Queries
+@media(screen-size){
+    selector{
+        property: value;
+        property: value;
+        .
+        .
+        .
+    }
+}
+
+max-width: 768px --> it applies for small and extra small
+min-width: 800px --> it appiles for 800px and above

@@ -1,0 +1,192 @@
+        body {
+            margin: 0px;
+            padding-top: 15px;
+        }
+
+        .navbar {
+
+            align-items: center;
+            display: flex;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.9);
+            justify-content: center;
+        }
+
+        .navbar img {
+            width: 15%;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+
+        .navbar a {
+            font-family: sans-serif;
+
+            margin: 10px;
+            text-decoration: none;
+            color: gray;
+        }
+
+        .name {
+            margin-left: 10%;
+            width: 25%;
+        }
+
+        .links {
+            font-size: 0.6rem;
+            margin-right: 10%;
+            justify-content: space-evenly;
+        }
+
+        .navbar select {
+            background-color: transparent;
+            color: grey;
+            border: none
+        }
+
+        .headersec {
+            align-items: center;
+            padding: 20px 18%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .headersec a {
+            font-size: 0.8rem;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .HOME {
+            display: flex;
+            justify-content: space-evenly;
+            width: 60%;
+        }
+
+        .search input {
+            border: none;
+            width: 83%;
+        }
+
+        .search :focus {
+            outline: none;
+        }
+
+        .search {
+            width: 25%;
+            border: 1px solid rgb(169, 169, 169);
+            padding: 1px;
+            border-radius: 2px;
+        }
+
+        .banner {
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            
+            padding: 10% 13%;
+        }
+
+        .shapes {
+            position: relative;
+            width: 60%;
+        }
+
+        .rectangle {
+            background-color: rgb(129, 129, 129);
+            padding: 5%;
+            min-height: 90%;
+            width: 70%;
+            margin-top: 5%;
+        }
+
+        .circle1,
+        .circle2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 50%;
+            background-color: orange;
+            width: 90px;
+            min-height: 90px;
+            position: absolute;
+            top: 0%;
+            right: 24%;
+        }
+        .circle1{
+            color:white;
+        }
+
+        .circle2 {
+            background-color: white;
+            width: 60px;
+            min-height: 60px;
+            color: black;
+            font-size: 0.8rem;
+            top: 50%;
+            right: 20%;
+        }
+
+        .web-hosting {
+            width: 30%;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        .Unlimited {
+            font-size: 2rem;
+        }
+
+        .web {
+            font-size: 2.8rem;
+            font-weight: bold;
+        }
+
+        .web-hosting p {
+            font-size: 0.7rem;
+        }
+
+        .web-hosting >.links a {
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            padding:10px;
+            margin-right: 20px;
+        }
+
+        .web-hosting>.links a:hover {
+            background-color: orange;
+            border: none;
+        }
+        @media (max-width:436px){
+            .banner{
+                flex-direction: column;
+            }
+            .shapes, .web-hosting {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+            .rectangle {
+                min-height:100%;
+                padding: 18% 5%;
+            }
+            .circle1{
+                width:60px;
+                min-height: 60px;
+                font-size: 0.8rem;;
+            }
+            .circle2{
+                top:45%;
+                width:40px;
+                min-height: 40px;
+                font-size: 0.6rem;;
+            }
+            .Unlimited{
+                font-size: 1.5rem;
+            }
+            .web {
+                font-size: 2rem;
+            }
+        }

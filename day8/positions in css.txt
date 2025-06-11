@@ -1,0 +1,35 @@
+POSITIONS IN CSS
+To place an element in a specific position on the web page we are going to use position properties 
+which carries
+1. Static       --> Default value for every element
+2. Relative     --> Which changes the position of an element placed on screen.
+3. Absolute     --> Which changes the position of an element based on its parent element which carries relative or fixed or sticky 
+4. Sticky       --> Which holds the element only after mentioning the position
+5. Fixed        --> Which fixes an element even after the main scroll.
+
+Note:- We have to mention top right bottom left for fixing an element.
+
+Font Properties:-
+In CSS we can change a text element behaviour we use font properties
+1. font-family      --> San serief, mono  space.....
+2. font-size        --> a number followed by rem or em
+3. font-weight      --> bold, thin, normal, a number
+4. font-style       --> italic, oblique, normal
+5. google fonts     --> which we get the stylings from google font platform
+
+
+Layout:-
+    To change the displaying of the content we use display properties
+    display: flex, grid, inline, inline-block, block, none.
+
+
+Flex Box:-
+    In CSS based on parent element we are gng to change an element's alignment and we can split group of elements tomake equal spaces based on screen size.
+
+display: flex;
+    flex-direction: row, column, row-reverse, column-reverse;
+    flex-wrap: wrap, nowrap, wrap-reverse;
+    flex-flow: combination of flex-direction and flex-wrap;
+    justify-content: center, space-between, space-around, space-evenly, flex-start, flex-end;
+    align-items: center, stretch, baseline, flex-start, flex-end;
+    
